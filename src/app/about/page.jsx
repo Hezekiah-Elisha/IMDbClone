@@ -8,7 +8,6 @@ export default function AboutPage() {
             <p>
                 At [Your Site Name], we believe in creating a user-friendly experience that caters to your curiosity and passion for film. Our interface is designed to be intuitive, making it easy for you to find exactly what you&apos;re looking for, from cast and crew details to box office performance and critical reviews. Our advanced search and filter options empower you to navigate through the vast sea of movie data effortlessly. By leveraging the extensive IMDb database, we bring you a wealth of information that is both reliable and engaging.
             </p>
-
             <p>
                 Join our community of movie lovers today! At [Your Site Name], we are more than just a database; we are a vibrant community that celebrates the magic of movies. Share your reviews, participate in discussions, and connect with fellow cinephiles who share your passion. Whether you&apos;re here to reminisce about classic films, stay updated on the latest releases, or simply seek recommendations for your next movie night, [Your Site Name] is your go-to platform for all your cinematic needs. Welcome aboard, and let&apos;s embark on this exciting journey through the world of cinema together!
             </p>
