@@ -1,14 +1,11 @@
 import Image from "next/image";
+import Card from "@/components/Card";
 
 export default function Results({ results }) {
     return (
-        <div>
+        <div className={"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 max-w-6xl mx-auto py-4"}>
             {results.map((result) => (
-                <div key={result.id}>
-                    <h2>{result.title || result.name}</h2>
-                    <p>{result.overview}</p>
-                    <img src={`https://image.tmdb.org/t/p/original/${result.backdrop_path || result.poster_path}`} alt={result.title || result.name} />
-                </div>
+                <Card key={result.id} result={result} />
             ))}
         </div>
     );
