@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hey there! This is an IMDB Clone
 
 ## Getting Started
 
@@ -12,6 +12,22 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+
+## What you need
++ IMDb API Key
++ Next.js
++ React.js
++ Tailwind CSS
+
+## How to get IMDb API Key
+1. Go to [IMDb API](https://rapidapi.com/apidojo/api/imdb8) and create an account
+2. Subscribe to the API
+3. Get the API Key
+4. Create a `.env.local` file in the root directory
+5. Add the following line to the `.env.local` file
+```bash
+API_KEY=YOUR_API_KEY
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -34,3 +50,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Author
++ [Hezekiah Elisha](https://x.com/_/hezekiahelisha)
+
+Happy Hacking!
