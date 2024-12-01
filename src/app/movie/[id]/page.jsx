@@ -12,8 +12,8 @@ export default async function MoviePage({params}) {
     const movie = data;
 
     return (
-        <div className={"flex flex-col md:flex-row w-full max-w-6xl mx-auto"}>
-            <div className={"flex flex-row justify-center align-middle items-center w-full md:w-1/2"}>
+        <div className={"flex flex-col lg:flex-row w-full max-w-6xl mx-auto"}>
+            <div className={"flex flex-row justify-center align-middle items-center w-full lg:w-1/2"}>
                 <Image
                     width={1920}
                     height={1080}
@@ -22,7 +22,7 @@ export default async function MoviePage({params}) {
                     className={"rounded-lg hover:grayscale transition-grayscale duration-300 w-full object-cover"}
                 />
             </div>
-            <div className={"w-full md:w-1/2 space-y-1 p-2"}>
+            <div className={"w-full text-center lg:text-left lg:w-1/2 space-y-1 p-2"}>
                 <h2 className={"text-2xl font-bold"}>{movie.name || movie.title}</h2>
                 <p className={"text-lg"}>{movie.overview}</p>
                 <p><span className={"font-semibold mr-1"}>Release date:</span>{movie.release_date || movie.first_air_date}</p>
